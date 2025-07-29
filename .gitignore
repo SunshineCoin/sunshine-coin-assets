@@ -1,0 +1,34 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore temporary or backup files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.~*
+
+# Ignore hidden folders (e.g. .idea, .vscode)
+.*.sw?
+.idea/
+.vscode/
+
+# Ignore design source files (not needed in public repo)
+*.psd
+*.ai
+*.blend
+*.aep
+*.fig
+
+# Ignore build outputs or zipped files
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Ignore node_modules or dependency folders (not applicable here, but future-proofing)
+node_modules/
+dist/
+build/
